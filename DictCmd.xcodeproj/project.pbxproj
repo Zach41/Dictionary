@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9248B5D71C02B30400F1395E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248B5D61C02B30400F1395E /* main.m */; };
+		9248B5E11C02B4D900F1395E /* TTTDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248B5E01C02B4D900F1395E /* TTTDictionary.m */; };
+		9248B5E41C02BF9E00F1395E /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248B5E31C02BF9E00F1395E /* StringHelper.m */; };
+		9248B5EB1C02C95100F1395E /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248B5E61C02C95100F1395E /* TFHpple.m */; };
+		9248B5EC1C02C95100F1395E /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248B5E81C02C95100F1395E /* TFHppleElement.m */; };
+		9248B5ED1C02C95100F1395E /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9248B5EA1C02C95100F1395E /* XPathQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,19 @@
 /* Begin PBXFileReference section */
 		9248B5D31C02B30400F1395E /* DictCmd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DictCmd; sourceTree = BUILT_PRODUCTS_DIR; };
 		9248B5D61C02B30400F1395E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9248B5DE1C02B4D900F1395E /* DictionaryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryKit.h; sourceTree = "<group>"; };
+		9248B5DF1C02B4D900F1395E /* TTTDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTDictionary.h; sourceTree = "<group>"; };
+		9248B5E01C02B4D900F1395E /* TTTDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTDictionary.m; sourceTree = "<group>"; };
+		9248B5E21C02BF9E00F1395E /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		9248B5E31C02BF9E00F1395E /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
+		9248B5E51C02C95100F1395E /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		9248B5E61C02C95100F1395E /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		9248B5E71C02C95100F1395E /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		9248B5E81C02C95100F1395E /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		9248B5E91C02C95100F1395E /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		9248B5EA1C02C95100F1395E /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		9248B5EE1C02CB3C00F1395E /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		9248B5F01C02CB5900F1395E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,8 @@
 		9248B5CA1C02B30400F1395E = {
 			isa = PBXGroup;
 			children = (
+				9248B5F01C02CB5900F1395E /* libxml2.tbd */,
+				9248B5EE1C02CB3C00F1395E /* libxml2.2.tbd */,
 				9248B5D51C02B30400F1395E /* DictCmd */,
 				9248B5D41C02B30400F1395E /* Products */,
 			);
@@ -57,7 +77,18 @@
 		9248B5D51C02B30400F1395E /* DictCmd */ = {
 			isa = PBXGroup;
 			children = (
+				9248B5E51C02C95100F1395E /* TFHpple.h */,
+				9248B5E61C02C95100F1395E /* TFHpple.m */,
+				9248B5E71C02C95100F1395E /* TFHppleElement.h */,
+				9248B5E81C02C95100F1395E /* TFHppleElement.m */,
+				9248B5E91C02C95100F1395E /* XPathQuery.h */,
+				9248B5EA1C02C95100F1395E /* XPathQuery.m */,
+				9248B5DE1C02B4D900F1395E /* DictionaryKit.h */,
+				9248B5DF1C02B4D900F1395E /* TTTDictionary.h */,
+				9248B5E01C02B4D900F1395E /* TTTDictionary.m */,
 				9248B5D61C02B30400F1395E /* main.m */,
+				9248B5E21C02BF9E00F1395E /* StringHelper.h */,
+				9248B5E31C02BF9E00F1395E /* StringHelper.m */,
 			);
 			path = DictCmd;
 			sourceTree = "<group>";
@@ -118,7 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9248B5E11C02B4D900F1395E /* TTTDictionary.m in Sources */,
+				9248B5E41C02BF9E00F1395E /* StringHelper.m in Sources */,
 				9248B5D71C02B30400F1395E /* main.m in Sources */,
+				9248B5EB1C02C95100F1395E /* TFHpple.m in Sources */,
+				9248B5ED1C02C95100F1395E /* XPathQuery.m in Sources */,
+				9248B5EC1C02C95100F1395E /* TFHppleElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,9 +197,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -198,8 +236,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lxml2";
 				SDKROOT = macosx;
 			};
 			name = Release;
